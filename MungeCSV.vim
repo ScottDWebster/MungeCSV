@@ -52,5 +52,6 @@ endfunction
 endfunction
 
 :function WhiteSpace_To_Underscore()
+" Converts whitespace to underscores
 : :s/\s/_/g
 endfunction
