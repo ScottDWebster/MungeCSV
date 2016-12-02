@@ -20,9 +20,13 @@
 
 :function CSV_Trim()
 "	Trims extraneous whitespace from csv files
+"
+" Remove whitespace at the beginning of a line
 :silent!	:%s/^\s\+\(\S\)/\1/
-:silent!	:%s/\s\+,/,/g
-:silent!	:%s/,\s\+/,/g
+" Remove whitespace at the end of a line
+:silent! :%s/\(\S\)\s\+$/\1/
+" Remove whitespace around commas
+:silent! :%s/\s*,\s*/,/g
 :endfunction
 
 :function CSV_Trim_Formula()
