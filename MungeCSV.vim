@@ -14,6 +14,7 @@
 
 :function CSVify()
 "	Converts a space delimited columnar text file to csv format
+"
 "	Converts instances of 2 or more contiguous whitespace to commas
 :	%s/\s\{2,\}/,/g
 :endfunction
@@ -29,6 +30,10 @@
 
 :function CSV_Trim_Formula()
 "	Trims extraneous whitespace out of text formulas (="Some Text")
+"
+"	Remove whitespace at the beginning and end of a line
+:	silent %s/^\s*\(\S.*\S\)\s*$/\1/
+"	Trim leading and trailing whitespace out of text formulas (="Some Text")
 :	silent! %s/\(="\)\s\+\(\S\)/\1\2/g
 :	silent! %s/\(\S\)\s\+"/\1"/g
 :endfunction
