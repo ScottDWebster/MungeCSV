@@ -20,3 +20,6 @@ Pipe_To_Comma - Converts all pipe ("|" a.k.a vertical bar) charatcers to commas.
 Tab_To_Comma - Converts all tab characters to commas.  This is usefull for converting tab separated values to commas separated values (csv).
 
 Whitespace_To_Underscore - I believe I added this to make it easier to count blank spaces for something where I needed to know the spacing between fields.
+
+Installation:
+  Just clone this into your vim plugins directory (vim will find it within the MungeCSV subdirectory).
