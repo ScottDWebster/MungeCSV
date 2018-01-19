@@ -1,13 +1,13 @@
 " Add a menu for custom functions
 "
-:amenu MungeCSV.CSVify <ESC>:silent call CSVify()<cr>
-:amenu MungeCSV.CSV_Trim <ESC>:silent call CSV_Trim()<cr>
-:amenu MungeCSV.CSV_Trim_Formula <ESC>:silent call CSV_Trim_Formula()<cr>
-:amenu MungeCSV.Del_Div_Lines <ESC>:silent call Del_Div_Lines()<cr>
-:amenu MungeCSV.Del_Empty_Lines <ESC>:silent call Del_Empty_Lines()<cr>
-:amenu MungeCSV.Pipe_To_Comma <ESC>:silent call Pipe_To_Comma()<cr>
-:amenu MungeCSV.Tab_To_Comma <ESC>:silent call Tab_To_Comma()<cr>
-:amenu MungeCSV.WhiteSpace_To_Underscore <ESC>:silent call WhiteSpace_To_Underscore()<cr>
+:amenu MungeCSV.CSVify :silent call CSVify()<CR>
+:amenu MungeCSV.CSV_Trim :silent call CSV_Trim()<CR>
+:amenu MungeCSV.CSV_Trim_Formula :silent call CSV_Trim_Formula()<CR>
+:amenu MungeCSV.Del_Div_Lines :silent call Del_Div_Lines()<CR>
+:amenu MungeCSV.Del_Empty_Lines :silent call Del_Empty_Lines()<CR>
+:amenu MungeCSV.Pipe_To_Comma :silent call Pipe_To_Comma()<CR>
+:amenu MungeCSV.Tab_To_Comma :silent call Tab_To_Comma()<CR>
+:amenu MungeCSV.WhiteSpace_To_Underscore :silent call WhiteSpace_To_Underscore()<CR>
 
 "	Custom functions
 "
